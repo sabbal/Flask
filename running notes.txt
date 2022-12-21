@@ -1,0 +1,62 @@
+REST-api-using-flask
+
+REST : Represental state transfer
+
+http://127.0.0.1:8080/asdf
+
+url : 
+
+protocol: http ( hyper text transfer protocol )
+host:127.0.0.1 ( ip , can also domain like google.com- 142.250.205.228 )
+port:8080	( can be choose to show or hide )
+uri:/asdf		
+
+methods-verbs-
+C - Create - POST
+R - Read - GET
+U - Update - PUT
+D - Delete	- Delete
+
+
+POSTMAN : used to make CRUD calls :P :) 
+
+JSON: javascript object notation
+syntax: 
+	{
+		"key":"value",
+		"key1":"value",
+		"key2":"value"
+	}
+NOTES:
+keys should be unique
+values can be any of the below data types
+1. string - "anything you want"
+2. numbers - 123	
+	no quotes for numbers can also be preciosion like 2.42
+3. boolean - false/true
+4. list - [string/numbers/boolean]
+5. json - {}
+
+big example:
+Employee:
+
+{
+	"name":"Sabbal",
+	"id": 1,
+	"age":23,
+	"salary":150,
+	"address":{
+		"city":"Nizamabad",
+		"town":"Dharu galli"
+	},
+	"phone_numbers":[123123213,4324324234],
+	"is_married": false
+}
+
+
+
+
+
+
+
+
